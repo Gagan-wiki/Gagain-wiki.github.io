@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Portfolio of a B.Tech IT student focused on Python, machine learning, data analytics, and software development.">
+  <title>Gagan Reddy | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Gagan home"><span class="brand-mark">G</span><span>gagan<span class="muted">.dev</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</div>
+        <p class="hero-kicker">B.Tech IT undergraduate · MREC</p>
+        <h1>Building useful things<br>with <span class="gradient-text">code & curiosity.</span></h1>
+        <p class="hero-description">I'm Gagan — a developer-in-progress focused on Python, machine learning, and data-driven solutions. I enjoy turning concepts into practical projects and learning by building.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-ghost" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Based in India</span><span><i class="meta-line"></i> Always learning</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Decorative code card">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>about_me.py</span><span class="code-lock">●</span></div>
+          <div class="code-body">
+            <p><span class="line-no">01</span> <span class="purple">class</span> <span class="yellow">Developer</span>:</p>
+            <p><span class="line-no">02</span> &nbsp; <span class="blue">focus</span> = <span class="green">["Python", "ML"]</span></p>
+            <p><span class="line-no">03</span> &nbsp; <span class="blue">mindset</span> = <span class="green">"learn by building"</span></p>
+            <p><span class="line-no">04</span></p>
+            <p><span class="line-no">05</span> &nbsp; <span class="purple">def</span> <span class="yellow">build</span>(self):</p>
+            <p><span class="line-no">06</span> &nbsp; &nbsp; <span class="purple">return</span> <span class="green">"something useful"</span></p>
+            <p><span class="line-no">07</span></p>
+            <p class="cursor-line"><span class="line-no">08</span> <span class="cursor"></span></p>
+          </div>
+          <div class="code-footer"><span><span class="status-dot"></span> Ready to build</span><span>Python · ML</span></div>
+        </div>
+        <div class="floating-chip chip-python"><span>⌘</span> Python</div>
+        <div class="floating-chip chip-ml"><span>✳</span> Machine Learning</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading reveal"><p class="section-index">01 / ABOUT</p><h2>Curious by nature.<br><span class="muted">Practical by design.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm currently pursuing a B.Tech in Information Technology at Malla Reddy Engineering College. My learning path combines programming fundamentals with machine learning and data analytics.</p>
+          <p>I like understanding how things work, writing code that solves a real problem, and improving a project through testing and iteration. I'm looking for opportunities where I can contribute, learn from experienced engineers, and grow into a stronger software professional.</p>
+          <a class="text-link" href="#contact">Have an opportunity? Let's talk <span>↗</span></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><span class="stat-number">01</span><span class="stat-label">Build mindset</span><p>Learn concepts by applying them to projects.</p></div>
+          <div class="stat-card"><span class="stat-number">02</span><span class="stat-label">Data to decisions</span><p>Explore data, evaluate models, explain results.</p></div>
+          <div class="stat-card"><span class="stat-number">03</span><span class="stat-label">Keep improving</span><p>Open to feedback, collaboration, and new tools.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-heading reveal"><p class="section-index">02 / TOOLKIT</p><h2>Tools I work with<span class="gradient-text">.</span></h2><p class="section-subtitle">A growing toolkit for software development, machine learning, and analytics.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">Py</div><h3>Programming</h3><p>Python, problem-solving, object-oriented programming fundamentals</p><div class="tags"><span>Python</span><span>DSA practice</span><span>OOP</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">ML</div><h3>Machine Learning</h3><p>Preparing data, training models, and evaluating classification and regression</p><div class="tags"><span>scikit-learn</span><span>Preprocessing</span><span>Model evaluation</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">DB</div><h3>Data & SQL</h3><p>Querying, cleaning, exploring, and presenting data</p><div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>Pandas</span><span>NumPy</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">BI</div><h3>Analytics & Tools</h3><p>Turning analysis into clear visuals and maintaining project workflows</p><div class="tags"><span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>Git</span></div></article>
+      </div>
+      <p class="skills-note"><span>↳</span> Skills shown reflect my current learning and project experience. I'm actively strengthening my software engineering fundamentals.</p>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading reveal"><p class="section-index">03 / SELECTED WORK</p><h2>Projects that make<br><span class="muted">ideas tangible.</span></h2><p class="section-subtitle">A selection of projects I've worked on across machine learning, data analysis, and visualization.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-top"><span class="project-number">PROJECT 01</span><span class="project-type">MACHINE LEARNING</span></div>
+          <div class="project-visual loan-visual"><div class="visual-grid"></div><div class="loan-panel"><div class="mini-label">LOAN RISK MODEL</div><div class="loan-score">94.55<span>%</span></div><div class="loan-caption">Test accuracy · Gradient Boosting</div><div class="score-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="visual-orbit"></div></div>
+          <div class="project-content"><h3>Loan Approval Prediction</h3><p>Built a classification workflow to predict loan approval using applicant and credit-related features. The project uses preprocessing pipelines and model evaluation to keep training and testing steps organized.</p><div class="tags"><span>Python</span><span>scikit-learn</span><span>Gradient Boosting</span><span>GridSearchCV</span></div><div class="project-actions"><a class="text-link project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository <span>↗</span></a><span class="project-hint">Replace with your repo URL</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-number">PROJECT 02</span><span class="project-type">NLP / ML</span></div>
+          <div class="project-visual sentiment-visual"><div class="sentiment-window"><div class="sentiment-head"><span></span><span></span><span></span><b>review_analyzer.py</b></div><div class="sentiment-text">"The story was engaging and the performances were excellent."</div><div class="sentiment-result"><span class="sentiment-check">✓</span><div><b>Positive sentiment</b><small>Text classification output</small></div><span class="sentiment-pill">POSITIVE</span></div></div></div>
+          <div class="project-content"><h3>Movie Review Sentiment Analyzer</h3><p>A text-analysis project designed to classify movie reviews by sentiment and demonstrate a practical natural-language-processing workflow.</p><div class="tags"><span>Python</span><span>NLP</span><span>Text classification</span></div><div class="project-actions"><a class="text-link project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository <span>↗</span></a><span class="project-hint">Replace with your repo URL</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-number">PROJECT 03</span><span class="project-type">DATA ANALYSIS</span></div>
+          <div class="project-visual netflix-visual"><div class="chart-card"><div class="chart-title">CONTENT EXPLORATION <span>NETFLIX</span></div><div class="chart-bars"><i style="height:35%"></i><i style="height:52%"></i><i style="height:43%"></i><i style="height:78%"></i><i style="height:61%"></i><i style="height:92%"></i><i style="height:70%"></i><i style="height:83%"></i></div><div class="chart-labels"><span>EDA</span><span>SQL + PYTHON</span></div></div></div>
+          <div class="project-content"><h3>Netflix Exploratory Data Analysis</h3><p>Explored the Netflix titles dataset using Python and PostgreSQL to investigate content patterns and practice data cleaning, querying, and analysis.</p><div class="tags"><span>Python</span><span>PostgreSQL</span><span>Pandas</span><span>EDA</span></div><div class="project-actions"><a class="text-link project-link" href="https://github.com/" target="_blank" rel="noreferrer">View repository <span>↗</span></a><span class="project-hint">Replace with your repo URL</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-number">PROJECT 04</span><span class="project-type">BUSINESS INTELLIGENCE</span></div>
+          <div class="project-visual powerbi-visual"><div class="bi-dashboard"><div class="bi-head"><span>Salary Insights</span><span>↗</span></div><div class="bi-kpis"><div><small>AVERAGE SALARY</small><b>Salary KPI</b></div><div><small>ROLE ANALYSIS</small><b>By job title</b></div></div><div class="bi-chart"><i style="height:36%"></i><i style="height:60%"></i><i style="height:48%"></i><i style="height:82%"></i><i style="height:68%"></i><i style="height:94%"></i></div></div></div>
+          <div class="project-content"><h3>Salary Insights Dashboard</h3><p>Created a Power BI dashboard to explore salary data and communicate key comparisons through KPI cards and visual summaries.</p><div class="tags"><span>Power BI</span><span>Data visualization</span><span>Dashboard design</span></div><div class="project-actions"><a class="text-link project-link" href="https://github.com/" target="_blank" rel="noreferrer">View project <span>↗</span></a><span class="project-hint">Add repo or screenshot link</span></div></div>
+        </article>
+      </div>
+      <div class="project-disclaimer reveal"><span>ⓘ</span> Project visuals are illustrative. Link each card to your actual source code, notebook, or dashboard before sharing this portfolio.</div>
+    </section>
+
+    <section class="section-wrap learning-section">
+      <div class="learning-card reveal"><div><p class="section-index">04 / CURRENT FOCUS</p><h2>Learning today.<br><span class="gradient-text">Building for tomorrow.</span></h2><p>I'm strengthening my machine learning fundamentals while continuing to practise Python, SQL, and core problem-solving skills. I value clear code, honest evaluation, and projects that solve real problems.</p></div><div class="learning-list"><div><span class="learning-check">↗</span><span>Machine learning foundations</span></div><div><span class="learning-check">↗</span><span>Python and problem-solving</span></div><div><span class="learning-check">↗</span><span>Building and documenting projects</span></div><div><span class="learning-check">↗</span><span>Interview and communication practice</span></div></div></div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div class="contact-inner reveal"><p class="section-index">05 / CONTACT</p><h2>Let's build something<br><span class="gradient-text">worth sharing.</span></h2><p>Interested in internship opportunities, collaborative projects, or connecting about technology? I'd be happy to hear from you.</p><div class="contact-actions"><a class="button button-primary" id="email-link" href="mailto:YOUR_EMAIL@example.com">Email me <span>↗</span></a><a class="button button-ghost" id="github-link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a><a class="button button-ghost" id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div><p class="contact-note">Update the email, GitHub, LinkedIn, and project links in <code>script.js</code> before publishing.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">G</span><span>gagan<span class="muted">.dev</span></span></a><p>Designed with curiosity. Built with code.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="footer-copy">© <span id="year"></span> Gagan Reddy</span></footer>
+</body>
+</html>
